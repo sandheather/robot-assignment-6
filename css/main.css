@@ -1,0 +1,81 @@
+
+html{
+		box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+}
+header{
+	background-color: #2b3951;
+}
+
+h1{
+	background-color: #1a2230;
+	position: absolute;
+	left:0;
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+	padding:0.8em;
+	margin-top: 0;
+	font-family: 'Contrail One', cursive;
+}
+
+div{
+	padding:20px;
+	padding-bottom: 0;
+}
+
+.wrap{
+	position: relative;
+	width:320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.head-right{
+width:125px;
+position: absolute;
+top:32px;
+right:15px;
+transition:all 200ms linear;
+}
+
+.wrap:hover .head-right{
+	right:-50px;
+	bottom: 60px;
+}
+
+.head-left{
+width:125px;
+position: absolute;
+top:32px;
+left:55px;
+transition:all 200ms linear;
+}
+.wrap:hover .head-left{
+	left:-5px;
+	bottom: 60px;
+}
+.brain{
+width:46px;
+position: absolute;
+top:5em;
+right: 116px;
+
+}
+
+.body{
+width:320px;
+display:block;
+margin-top: 50px;
+}
+
+
+
